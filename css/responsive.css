@@ -1,0 +1,301 @@
+    @media only screen and (max-width: 991px) {
+        .float-right {
+            float: none;
+        }
+        .float-left {
+            float: none;
+        }
+        .mobile-menu {
+            display: block;
+            background-color: none;
+        }
+        .main-menu {
+            display: none;
+        }
+        #map {
+            height: 400px;
+        }
+        .fun-fact-text {
+            width: 100%;
+            text-align: center;
+        }
+        .prev-page-lnk {
+            left: 20px;
+        }
+        .next-page-lnk {
+            right: 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .header-area .col-sm-7::after {
+            display: none;
+        }
+        .header-area::after {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 641px) and (max-width: 991px) {
+        .service-txt {
+            width: 50%;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .text-80 {
+            font-size: 70px;
+            line-height: 100px;
+        }
+        .text-70 {
+            font-size: 60px;
+            line-height: 85px;
+        }
+        .text-60 {
+            font-size: 50px;
+            line-height: 65px;
+        }
+        .text-50 {
+            font-size: 40px;
+            line-height: 60px;
+        }
+        .text-40 {
+            font-size: 36px;
+            line-height: 40px;
+        }
+        .side-img {
+            height: 300px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    
+    @media only screen and (max-width: 640px) {        
+        .pointer {
+            margin-left: 3px;
+            bottom: 3%;
+            transform-origin: center center;
+            transform: scale(0.8);
+        }
+        .service-txt {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 30px;
+        }
+    }
+    
+    @media only screen and (min-width: 641px) and (max-width: 1024px) {
+        .pointer {
+            margin-left: 3px;
+            bottom: 3%;
+            z-index: 995;
+            transform-origin: center center;
+            transform: scale(1);
+        }
+        .width-800 {
+            max-width: 100%;
+            padding-left: 30px;
+            padding-right: 30px;
+            align-content: center;
+        }
+        .width-585 {
+            width: 100%;
+            max-width: 1000px;
+            padding: 0 50px;
+            margin: 0;
+            align-content: center;
+        }
+        .side-img {
+            height: 400px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    
+    @media only screen and (min-width: 481px) and (max-width: 640px) {
+        .text-80 {
+            font-size: 60px;
+            line-height: 90px;
+        }
+
+        .text-70 {
+            font-size: 50px;
+            line-height: 75px;
+        }
+
+        .text-60 {
+            font-size: 40px;
+            line-height: 55px;
+        }
+
+        .text-50 {
+            font-size: 36px;
+            line-height: 50px;
+        }
+
+        .text-40 {
+            font-size: 30px;
+            line-height: 36px;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .text-80 {
+            font-size: 40px;
+            line-height: 60px;
+        }
+        .text-70 {
+            font-size: 36px;
+            line-height: 50px;
+        }
+        .text-60 {
+            font-size: 30px;
+            line-height: 45px;
+        }
+        .text-50 {
+            font-size: 24px;
+            line-height: 40px;
+        }
+        .text-40 {
+            font-size: 20px;
+            line-height: 36px;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .side-img {
+            display: none;
+        }
+        .pointer {
+            margin-left: 0;
+            bottom: 3%;
+            transform-origin: center center;
+            transform: scale(0.8);
+        }
+        .why-us-ico {
+            width: 50%;
+            float: left;
+        }
+        .ico {
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            background-size: contain;
+            margin: 15px 0;
+            opacity: 0.7;
+        }
+        .partner {
+            width: 150px;
+            height: 100px;
+        }
+        #contact-no p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .welcome {
+            height: 300px;
+        }
+        .welcome::after {
+            height: 300px;
+        }
+        .prev-page-lnk {
+            left: 10px;
+        }
+        .next-page-lnk {
+            right: 10px;
+        }
+        .btn-blk-line {
+            margin: 20px 25px;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        h2 {
+            font-size: 22px;
+            line-height: 40px
+        }
+        h3 {
+            font-size: 20px;
+            line-height: 36px
+        }
+        h4 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        h5 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        h6 {
+            font-size: 14px;
+            line-height: 20px
+        }
+        .ico-fnt-1,
+        .ico-fnt-2 {
+            font-size: 36px;
+        }
+        .skill {
+            padding: 0 5px;
+        }
+        .social-nav li a {
+            color: white;
+            font-size: 18px;
+            padding: 25px 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 400px) {
+        h1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+        h2 {
+            font-size: 22px;
+            line-height: 28px
+        }
+        h3 {
+            font-size: 20px;
+            line-height: 25px
+        }
+        h4 {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        h5 {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        h6 {
+            font-size: 14px;
+            line-height: 20px
+        }
+        .ico-fnt-1,
+        .ico-fnt-2 {
+            font-size: 30px;
+        }
+        .skill {
+            padding: 0 5px;
+        }
+        .skill p {
+            font-size: 14px;
+            margin-left: 0px;
+        }
+        .skill span {
+            font-size: 12px;
+            margin: 30px;
+        }
+        .social-nav li a {
+            color: white;
+            font-size: 16px;
+            padding: 20px 5px;
+        }
+        .partner {
+            width: 120px;
+            height: 80px;
+            padding: 0 5px;
+        }
+    }
